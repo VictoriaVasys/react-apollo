@@ -1,5 +1,6 @@
-datamodel: datamodel.graphql
+endpoint: http://localhost:4466
+datamodel: datamodel.prisma
 secret: mysecret123
-hooks:
-  post-deploy:
-    - yarn graphql get-schema --project database
+# hooks:
+#   post-deploy:
+#     - prisma generate
