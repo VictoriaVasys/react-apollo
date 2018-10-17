@@ -28,8 +28,6 @@ To start the server, all you need to do is execute the `start` script by running
 npm start
 ```
 
-> **Note**: If you want to interact with the GraphQL APIs inside a [GraphQL Playground](https://github.com/graphcool/graphql-playground), you can also run `yarn dev`.
-
 ### 4. Run the app
 
 Now that the server is running, you can start the app as well. The commands need to be run in a new terminal tab/window inside the root directory `react-apollo` (because the current tab is blocked by the process running the server):
