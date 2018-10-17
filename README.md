@@ -14,7 +14,7 @@ git clone https://github.com/Joshwani/react-apollo/
 
 ```sh
 cd react-apollo/server
-yarn install
+npm install
 cd database
 docker-compose up -d
 prisma deploy
@@ -25,7 +25,7 @@ prisma deploy
 To start the server, all you need to do is execute the `start` script by running the following command inside the `server` directory:
 
 ```sh
-yarn start
+npm start
 ```
 
 > **Note**: If you want to interact with the GraphQL APIs inside a [GraphQL Playground](https://github.com/graphcool/graphql-playground), you can also run `yarn dev`.
@@ -35,8 +35,8 @@ yarn start
 Now that the server is running, you can start the app as well. The commands need to be run in a new terminal tab/window inside the root directory `react-apollo` (because the current tab is blocked by the process running the server):
 
 ```sh
-yarn install
-yarn start
+npm install
+npm start
 ```
 
 You can now open your browser and use the app on `http://localhost:3000`.
